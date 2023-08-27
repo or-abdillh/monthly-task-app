@@ -16,7 +16,7 @@
         </div>
         <!-- icons -->
         <div class="text-gray-600 flex gap-2">
-          <button class="w-10 h-10 border border-gray-200 rounded-full hover:bg-gray-600 hover:text-gray-200 duration-300"><i class="fa-regular fa-calendar"></i></button>
+          <button @click="$router.push('/detail')" class="w-10 h-10 border border-gray-200 rounded-full hover:bg-gray-600 hover:text-gray-200 duration-300"><i class="fa-regular fa-calendar"></i></button>
           <button class="w-10 h-10 border border-gray-200 rounded-full hover:bg-gray-600 hover:text-gray-200 duration-300"><i class="fa-regular fa-bell"></i></button>
         </div>
       </section>
