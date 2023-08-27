@@ -7,7 +7,7 @@
         <!-- user -->
         <div class="flex gap-4 items-center w-7/12">
           <!-- avatar -->
-          <div><img src="/avatar.png" alt="avatar" class="rounded-full h-12 shadow-lg"/></div>
+          <div><img src="/avatar.png" alt="avatar" class="rounded-full h-12 shadow-lg" /></div>
           <!-- copywriter -->
           <div>
             <p class="text-xs text-gray-400">Welcome back</p>
@@ -16,8 +16,12 @@
         </div>
         <!-- icons -->
         <div class="text-gray-600 flex gap-2">
-          <button @click="$router.push('/detail')" class="w-10 h-10 border border-gray-200 rounded-full hover:bg-gray-600 hover:text-gray-200 duration-300"><i class="fa-regular fa-calendar"></i></button>
-          <button class="w-10 h-10 border border-gray-200 rounded-full hover:bg-gray-600 hover:text-gray-200 duration-300"><i class="fa-regular fa-bell"></i></button>
+          <button @click="$router.push('/detail')"
+            class="w-10 h-10 border border-gray-200 rounded-full active:bg-gray-600 active:text-gray-200 duration-300"><i
+              class="fa-regular fa-calendar"></i></button>
+          <button
+            class="w-10 h-10 border border-gray-200 rounded-full active:bg-gray-600 active:text-gray-200 duration-300"><i
+              class="fa-regular fa-bell"></i></button>
         </div>
       </section>
     </section>
